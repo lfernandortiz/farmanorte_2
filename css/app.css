@@ -1,0 +1,137 @@
+
+
+@font-face {
+  font-family: 'icomoonpage';
+  src:  url('../fonts/fontspage/icomoonpage.eot?uyuiv4');
+  src:  url('../fonts/fontspage/icomoonpage.eot?uyuiv4#iefix') format('embedded-opentype'),
+    url('../fonts/fontspage/icomoonpage.ttf?uyuiv4') format('truetype'),
+    url('../fonts/fontspage/icomoonpage.woff?uyuiv4') format('woff'),
+    url('../fonts/fontspage/icomoonpage.svg?uyuiv4#icomoonpage') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoonpage' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-menu2:before {
+  content: "\e902";
+}
+.icon-bike:before {
+  content: "\e903";
+}
+.icon-injection:before {
+  content: "\e904";
+}
+.icon-call-center-worker:before {
+  content: "\e900";
+}
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+
+#scrollSticky{
+	z-index: 99 ;	
+}
+
+.vertical.menu{
+	background-color: #000A7B;
+}
+
+.vertical.menu li a{
+	color: #FFFFFF;			
+}
+
+.vertical.menu li {
+	padding: .4rem 0;
+	border-bottom: 1px solid #01052A;
+    /*box-shadow: 0px 1px 1px 0px #295FA2;*/
+}
+
+.redesMenu{
+	padding-top: 3rem;
+}
+/*edita el background del menu offcanvas*/
+.off-canvas-wrapper{
+	background-color: #09137E;	
+}
+
+.barMenu{
+	background: #389B48;
+	background: #000A7B;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	/*padding: 10px 5px 10px 5px;*/
+	padding: .15rem .4rem .2rem .4rem ;
+	font-size: .9em;
+	width: 100%;
+}
+
+.barMenuSticky{
+	background: #000A7B;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	padding: 5px 5px 5px 5px;
+	font-size: .85em;
+	transition: all 0.4s ease;
+}
+
+#logotipo{
+	
+}
+
+.burgermenu{
+	color: #FFFFFF;
+	font-size: 1.9rem;	
+}
+
+.menu .active > a {
+    color: #FFCA0D!important;
+    font-weight: bold;    
+    background: #000a7b; 
+}
+
+
+.menu > li > a.burgerb {
+    padding: 0;
+}
+
+
+.navbar li a{
+	color: #FFFFFF!important;
+	
+}
+
+.activation{
+	color: #FFFFFF!important ;
+    /*font-weight: bold;    */
+    background: #2B71DA; 
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px #A6A6A6;
+}
+.activationredes{
+	background: none;
+    box-shadow: 0px 0px 1px #A6A6A6;
+}
