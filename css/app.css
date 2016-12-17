@@ -135,3 +135,42 @@ figure{
 	background: none;
     box-shadow: 0px 0px 1px #A6A6A6;
 }
+
+#iniciosection{
+	background: #E6E6E6;
+}
+
+/*Editando estilos del slider orbit*/
+.orbit-bullets button{width: 14px!important; height: 14px!important; }
+.orbit-bullets button:hover {
+      background-color: #000A7B!important; }
+.orbit-bullets button.is-active {
+  background-color: #000A7B!important; }
+
+.nabullets{
+	margin:0.3rem!important;
+}
+
+.orbit-caption {	
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 0;
+  color: #fefefe;
+  background-color: rgba(10, 10, 10, 0.5); }
+
+#sucursalancla{ padding-top: 15px; }
+
+#sucursales{
+ 	padding: 5px 0px 30px 0px;
+ }
+
+ .divSucursales{
+ 	margin-top: 20px;
+ }
+
+ .imgsuc{
+ 	border-radius: 4px;
+ 	border: 2px solid #C1C1C1
+ }
