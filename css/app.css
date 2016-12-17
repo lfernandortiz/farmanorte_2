@@ -42,9 +42,9 @@
   content: "\e900";
 }
 
-
 body{
 	font-family: 'Lato', sans-serif;
+	background-color: #FFFFFF;
 }
 
 figure{
@@ -136,6 +136,10 @@ figure{
     box-shadow: 0px 0px 1px #A6A6A6;
 }
 
+ .off-canvas-content{
+ 	background-color: #FFFFFF!important;
+ }
+
 #iniciosection{
 	background: #E6E6E6;
 }
@@ -174,3 +178,56 @@ figure{
  	border-radius: 4px;
  	border: 2px solid #C1C1C1
  }
+
+#serviciosAncla{
+	padding: 15px 0;
+}
+ #serviciosSection{
+ 	 padding: 10px 0px 50px 0px;
+ 	 background-color: #389B48;
+ 	 background-color: #0BC3D7;
+ 	 background-color: #CBD300;
+ 	 background-color: #fed859;
+ 	 /*background-color: #D4D4D4;*/
+
+ }
+
+.sectiontitle{
+	color: #FFFFFF;
+	color: #000a7b;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 25px;	
+ }
+
+.servicioscontent{
+	padding: 2rem 0;	
+}
+
+ .servicioscontent a{ 	
+ 	color: #FFFFFF;
+ 	color: #000a7b;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1rem;
+ 	font-weight: bold; 	 
+ }
+
+.servicioscontent i{
+	border-radius: 60px;
+	font-size: 3rem;
+	padding: 25px;
+ 	max-width: 90px!important;
+ 	height: 90px!important;
+ 	background-color: rgba(255, 255, 255, .85);
+ 	color: #000a7b;
+ 	margin: 30px 15px 30px 15px;
+ 	vertical-align: middle;
+}
+
+.nombreServicio{
+	color: #FFFFFF;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 1.4rem;
+ 	margin: 30px 5px 0px 5px;
+ 	width: 100%; 		 
+}
