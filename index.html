@@ -16,6 +16,66 @@
       </div>
       <div class="off-canvas-content" data-off-canvas-content>
         <!-- Contenido de la pagina General -->
+        <section id="scrollSticky" class="menuSection" data-sticky-container>
+          <div class="barMenu" data-sticky id="sticky" data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+            <div class="row small-collapse align-middle align-justify">
+               <!-- columna logo -->
+              <div class="column small-10 medium-4 large-4">
+                <a href="#">
+                <figure id="logotipo"><img src="images/logoFarmanort1x.png" srcset="images/logoFarmanort1x.png 1x, images/logoFarmanort2x.png 2x" alt="Logo Droguerias Farmanorte"></figure>
+                </a>
+              </div>
+              <!-- columna menu -->
+              <div class="column small-1 medium-8  large-8">
+                <!-- burger menu -->
+                <div class="menu show-for-small-only align-right">
+                  <a href="#" data-toggle="offCanvas" class="burgerb"><i class="icon-menu burgermenu"></i></a>
+                </div>
+                 <!-- Menu normal -->
+                <div class="row align-right">
+                  <nav id="menu-container" data-magellan data-animation-duration="800">                 
+                    <ul class="menu dropdown navbar align-spaced show-for-medium" data-dropdown-menu>
+                      <li><a href="#iniciosection">Inicio</a></li>
+                      <li><a href="#sucursalancla">Sucursales</a></li>
+                      <li><a href="#serviciosAncla">Servicio</a></li>
+                      <li><a href="#institucionalancla">Nosotros</a></li>
+                      <li><a href="#anclacontactosection">Contactenos</a></li>
+                    </ul>
+                  </nav>                  
+                </div> <!-- end row-content for nav -->
+              </div> 
+            </div>          
+          </div> <!-- barMenu -->
+        </section>
+
+        <!-- Slider seccion -->
+        <section id="iniciosection" data-magellan-target="iniciosection">
+          <div class="row small-collapse">
+            <div class="column small-12">
+              <div class="orbit" id="myslider" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                <ul class="orbit-container">
+                  <button class="orbit-previous"><span class="show-for-sr">Anterior Slide</span> &#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Siguiente Slide</span> &#9654;&#xFE0E;</button>
+                  <li class="orbit-slide is-active">
+                    <img class="orbit-image" src="images/TarjetaWebNavidad.jpg" alt="Navidad">
+                    <figcaption class="orbit-caption show-for-medium">Feliz Navidad Amiguitos.</figcaption>
+                  </li>
+                  <li class="orbit-slide is-active">
+                    <img class="orbit-image" src="images/Lienzo3.jpg" alt="Navidad">
+                    <figcaption class="orbit-caption show-for-medium">Feliz Navidad Amiguitos.</figcaption>
+                  </li>
+                  <!-- More slides... -->
+                </ul>
+                <nav class="orbit-bullets nabullets show-for-medium">
+                  <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                  <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                  <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                  <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                </nav>
+              </div>
+            </div> <!-- end row -->
+          </div>
+        </section>
 
       </div> <!-- end off-canvas-content -->
     </div> <!-- end off-canvas-wrapper -->
